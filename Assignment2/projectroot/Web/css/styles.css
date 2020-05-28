@@ -1,0 +1,79 @@
+ul {
+    list-style-type: none;
+    background-color: #0063cc;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* CSS for list item in the unordered list */
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 16px 18px;
+}
+
+li a:hover:not(.active) {
+    background-color: #6ec3f5;
+}
+
+.active {
+    background-color: #03a2ff;
+}
+
+
+/* CSS for all body content on all pages */
+body, main {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    
+}
+
+.para {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.para p {
+    font-size: 16px;
+}
+
+
+/* CSS for my footer content class */
+.footer_content{
+    margin-top: 4px;
+    background-color: rgb(231, 227, 227);
+    text-align: center;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    height: 75px;
+}
+
+/* CSS for footer paragraph */
+footer p {
+    font-size: 14px;
+    line-height: 0.4;
+}
+
+/* Overriding Bootstrap */
+body > nav > ul {
+    margin-bottom: 0;
+}
+
+/* Overriding Bootstrap */
+body > .footer_content > footer > p {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
